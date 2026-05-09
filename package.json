@@ -1,0 +1,27 @@
+{
+  "name": "northscale",
+  "version": "1.0.0",
+  "description": "Institutional-grade AI investment intelligence terminal for NSE/BSE stocks.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreyas-GN/NorthScale.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shreyas-GN/NorthScale/issues"
+  },
+  "homepage": "https://github.com/Shreyas-GN/NorthScale#readme",
+  "devDependencies": {
+    "supabase": "^2.98.2"
+  }
+}
