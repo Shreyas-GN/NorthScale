@@ -5,7 +5,7 @@ celery_app = Celery(
     "northscale",
     broker=settings.CELERY_BROKER_URL,
     backend=settings.CELERY_RESULT_BACKEND,
-    include=["jobs.tasks"]
+    include=["jobs.tasks", "jobs.ingestion"]
 )
 
 # Queue Configuration
